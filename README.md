@@ -10,7 +10,7 @@ The answer was obviously to dive into the chaotic beauty of physics with a class
 ## Physical Theories Involved
 
 ### The Basics  
-If you’ve ever cracked open a physics book (even in high school), the foundations will be familiar. Here’s what I used:
+If you’ve ever cracked open a physics book, the foundations will be familiar. Here’s what I used:
 
 - **Newton’s Second Law:**  
   $$\vec{F} = m \vec{a}$$  
