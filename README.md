@@ -33,7 +33,7 @@ The three-body problem — yes, it really is just that — is all about figuring
 
 That’s what makes it fascinating. It sits right at the edge of classical mechanics and chaos theory. A seriously beautiful thing.
 
-Of course, there are probably much more elegant ways to approach the problem — like from a pure math perspective — but since this was a project from my first year, I had no idea about such things at the time.
+Of course, there are probably much more elegant ways to approach the problem — like from a pure math perspective — but here we will take a more laid back approach.
 
 ## Basic Function of the Python Code  
 (Not a genius (yet) when it comes to Python, but I tried my best)
