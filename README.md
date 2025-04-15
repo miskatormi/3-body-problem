@@ -88,5 +88,3 @@ In these last cases, the three-body problem fully reduces to a two-body scenario
 ## Future of This Project?
 
 I might, on a rainy (sunny?) day, revisit the simulation — hopefully much wiser — to improve and expand it. Exploring Lyapunov exponents could be an interesting next step. Maybe I’ll even incorporate some data analysis to better understand the results.
-
-Let’s see how busy life makes me...
