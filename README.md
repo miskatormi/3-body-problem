@@ -1,5 +1,5 @@
 # Three-Body Problem – A Simple Simulation  
-(2024 Personal Weekend Project, README written and project published to GitHub 2025)
+(Personal Weekend Project from 2024, README written and project published to GitHub 2025)
 
 During the summer, every normal university student starts to miss their classes (or... maybe not). But anyway, me being of the *normal* kind, I started to miss my mechanics classes and thought to myself:
 
