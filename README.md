@@ -60,19 +60,19 @@ The simulation follows a rather simple pattern:
 ## Some Results, With Tiny Analysis  
 In all the figures, the initial positions are marked with small dots, and the most recent positions with large dots. Here are some (to me) special cases that I can comment on:
 
-### Momentary Reduction to the Two-Body Problem  
-<p align="center">
-    <img width="640" height="480" src="https://github.com/miskatormi/Three-body-problem/blob/main/Figure_1.png">
-</p>  
-
-Here you can see what happens when the three-body problem momentarily reduces to the two-body problem: the blue and yellow masses form a close bond and orbit each other. Their combined center of mass then orbits the green mass as if it were just a single object.
-
 ### Total Chaos  
 <p align="center">
     <img width="640" height="480" src="https://github.com/miskatormi/Three-body-problem/blob/main/Figure_3.png">
 </p>
 
 In this case, the motion seems completely chaotic with no clear pattern. However, so far, the bodies have remained relatively close to each other.
+
+### Momentary Reduction to the Two-Body Problem  
+<p align="center">
+    <img width="640" height="480" src="https://github.com/miskatormi/Three-body-problem/blob/main/Figure_1.png">
+</p>  
+
+Here you can see what happens when the three-body problem momentarily reduces to the two-body problem: the blue and yellow masses form a close bond and orbit each other. Their combined center of mass then orbits the green mass as if it were just a single object.
 
 ### Full Reduction to Two-Body Problem via Symmetry  
 <p align="center">
