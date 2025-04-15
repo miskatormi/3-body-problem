@@ -56,7 +56,21 @@ The simulation follows a rather simple pattern:
 
 ##  Some Results, with tiny analysis  
 
+<p align="center">
+    <img width="640" height="480" src="https://github.com/miskatormi/Three-body-problem/blob/main/Figure_1.png">
+</p>
 
+<p align="center">
+    <img width="640" height="480" src="https://github.com/miskatormi/Three-body-problem/blob/main/Figure_3.png">
+</p>
+
+<p align="center">
+    <img width="640" height="480" src="https://github.com/miskatormi/Three-body-problem/blob/main/Figure_5.png">
+</p>
+
+<p align="center">
+    <img width="640" height="480" src="https://github.com/miskatormi/Three-body-problem/blob/main/Figure_6.png">
+</p>
 
 
 
