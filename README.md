@@ -47,7 +47,7 @@ To note that there most likely are more beautiful ways of looking at the problem
 The simulation follows a rather simple pattern:  
 1. Firstly the program is given a massive amount of initial conditions and parameters. Most imporant of them is probably the $\Delta t$ which determines when the next position is calculated.
 2. Secondly it takes these initial conditions which are added as an only element to a list. Then the program proceeds to a for loop, where the magic happends. In the loop we start to calculate the force in all direction for all the masses at the time $$t=0$$, then using Newtons 2nd law we calculate acceleration.
-3. Now the big "but". This simulation assumes that the force stays (i.e acceleration stays) constant during the $\Delta t$ time jump we do in time with every position calculated. This means for big $\Delta t$ or for extremely fast changing systems this simulation is not really good for anything... Despite this we continue to calculate the new position with the formula:
+3. Now the big "but". This simulation assumes that the force stays (i.e acceleration stays) constant during the $\Delta t$ time jump we do in time with every position calculated. This means that for large values of Δt — or rapidly changing systems — the simulation quickly becomes inaccurate. Still, we press on to calculate the new position with the formula:
   $$x_{n}=1/2*a_{n-1} t^2+v_{n-1}t +x_{n-1}$$, the position $x_n$ begin the position at the time $t= \Delta  t \cdot n$
 4. This position is the added to the list of the positions $x_n$ at the times $t= \Delta  t \cdot n$
 5. Then the lists are converted to Numpy arrays and plotted using Matplotlib. Matplotlib shows a animation of the full evolution and then the final frame (depending how many steps $d$ you inserted for the program to calculate)
@@ -55,15 +55,22 @@ The simulation follows a rather simple pattern:
 
 
 ##  Some Results, with tiny analysis  
-
+In all of the figures the initial positions can be seen with the little dots and the most recent positions with the big dots. Here are some (to me) special cases that I can say something about.
+### Approximate two-body problem
 <p align="center">
     <img width="640" height="480" src="https://github.com/miskatormi/Three-body-problem/blob/main/Figure_1.png">
-</p>
+</p>  
 
+
+Here you can see what happends when the three-body problem approximately momentarily reduces to a two-body problem when the blue and yellow masses get bonded to each other and stay close to their center of mass. Then this center of mass orbits around the green mass as if it was just a single mass.
+### Total chaos
 <p align="center">
     <img width="640" height="480" src="https://github.com/miskatormi/Three-body-problem/blob/main/Figure_3.png">
 </p>
 
+
+About this the only thing I think i can say that the motion seems to be completely chaotic with no clear pattern. However they (for now) have seemed to stay in a relative proximity to each other.
+### Total reduction to two-body problem by symmetries
 <p align="center">
     <img width="640" height="480" src="https://github.com/miskatormi/Three-body-problem/blob/main/Figure_5.png">
 </p>
@@ -71,7 +78,7 @@ The simulation follows a rather simple pattern:
 <p align="center">
     <img width="640" height="480" src="https://github.com/miskatormi/Three-body-problem/blob/main/Figure_6.png">
 </p>
-
+The two last here are a cases where the three body problem truly fully reduces to the two-body problem by the balacing of forces by picking very specific intial conditions.
 
 
 
