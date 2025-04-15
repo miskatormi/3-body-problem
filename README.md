@@ -20,8 +20,8 @@ If you’ve ever cracked open a physics book, the foundations will be familiar. 
   $$\vec{F}_g = \frac{GmM}{r^2} \hat{r}$$  
   The inverse square law to calculate gravitational forces between bodies.
 
-- **Discrete approximation of velocity:**  
-  $$v = \frac{\Delta x}{\Delta t}$$  
+- **Discrete approximation of acceleration:**  
+  $$a = \frac{\Delta v}{\Delta t} \quad \Leftrightarrow \quad \Delta v= a\Delta t$$  
   A simple numerical estimate that gets better as $\Delta t$ gets smaller — a little nod to the derivative definition.
 
 ### A Bit More on What I’m Simulating  
