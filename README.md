@@ -60,7 +60,7 @@ The simulation follows a rather simple pattern:
 ## Some Results, With Tiny Analysis  
 In all the figures, the initial positions are marked with small dots, and the most recent positions with large dots. Here are some (to me) special cases that I can comment on:
 
-### Momentary reduction to the Two-Body Problem  
+### Momentary Reduction to the Two-Body Problem  
 <p align="center">
     <img width="640" height="480" src="https://github.com/miskatormi/Three-body-problem/blob/main/Figure_1.png">
 </p>  
