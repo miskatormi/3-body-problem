@@ -1,8 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import matplotlib.animation as ani
 import matplotlib as mpl
-from scipy.optimize import curve_fit
 import timeit
 
 start = timeit.default_timer()
@@ -44,7 +42,7 @@ x[:n,:,0] = np.array([[1,1],[0,0],[-1,-1]])
 v[:n,:,0] = np.array([[-0.5,0.5],[0,0],[0.5,-0.5]]) #()
 m = np.array([100,1000,100]) #(m_1,...,m_n)
   
-for i in range(d-1): #The actual simulation saves time, position, velocity and acceleration data
+for i in range(d-1): #The simulation saves time, position, velocity and acceleration data
     t[i]=DELTA_t*i
     a[:,:,i] = ACC(x[:,:,i],m,G=6.3e-3)
     x[:,:,i+1] = 0.5*a[:,:,i]*DELTA_t**2+v[:,:,i]*DELTA_t+x[:,:,i]
