@@ -47,7 +47,7 @@ x_2 & y_2 & z_2 \\
 x_n & y_n & z_n
 \end{bmatrix} $$
 And one with made up of the masses of the particles
-$$\mathcal M=  \begin{bmatrix} m_1 \\ m_2 \\\vdots \\ m_n
+$$\mathcal M=  \begin{bmatrix} m_1 \\ m_2 \\ \vdots \\ m_n
 \end{bmatrix}$$
 The function then returns the acceleration vectors as row vectors in another array:
 $$ \mathcal A =  \begin{bmatrix}
@@ -81,7 +81,7 @@ In this case, the motion seems completely chaotic with no clear pattern. However
     <img width="640" height="480" src="https://github.com/miskatormi/Three-body-problem/blob/main/Figure_1.png">
 </p>  
 
-This shows what happens when the n-body <($n=3$)> problem momentarily reduces to the two-body problem: the blue and yellow masses form a close bond and orbit each other. Their combined center of mass then orbits the green mass as if it were just a single object.
+This shows what happens when the n-body $($n=3$)$ problem momentarily reduces to the two-body problem: the blue and yellow masses form a close bond and orbit each other. Their combined center of mass then orbits the green mass as if it were just a single object.
 
 ### Full Reduction to Two-Body Problem via Symmetry  
 <p align="center">
