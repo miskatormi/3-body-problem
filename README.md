@@ -1,5 +1,5 @@
 # $n$-Body Problem – A Simple Simulation  
-(Personal Weekend Project from 2024, README written and project published to GitHub 2025, Updated on 05/2025 for code efficiency and added generalization for $n$-body systems and more general force fields.)
+(Personal weekend project from 2024, README written and project published to GitHub 2025, Updated on 05/2025 for code efficiency and added generalization for $n$-body systems and more general force fields.)
 
 During the summer, every normal university student starts to miss their classes (or... maybe not). In my case, I started to miss my mechanics classes and thought to myself:
 
