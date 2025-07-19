@@ -43,18 +43,16 @@ $$
 The ACC-function takes in two arrays or tensors. One made up of the position vectors of the particles as row vectors: $$ \mathcal X = \begin{bmatrix}
 x_1 & y_1 & z_1\\
 x_2 & y_2 & z_2 \\
-\vdots & \vdots & \vdots \\
-x_n & y_n & z_n
+x_3 & y_3 & z_3
 \end{bmatrix} $$
 And one with made up of the masses of the particles
-$$\mathcal M=  \begin{bmatrix} m_1 \\ m_2 \\ \vdots \\ m_n
+$$\mathcal M=  \begin{bmatrix} m_1 \\ m_2 \\ m_3
 \end{bmatrix}$$
 The function then returns the acceleration vectors as row vectors in another array:
 $$ \mathcal A =  \begin{bmatrix}
 a_{x,1} & a_{y,1} & a_{z,1}\\
 a_{x,2} & a_{y,2} & a_{z,2}\\
-\vdots & \vdots & \vdots \\
-a_{x,n} & a_{y,n} & a_{z,n}\\
+a_{x,3} & a_{y,3} & a_{z,3}
 \end{bmatrix}$$
 
 ### The Simulation using ACC-function
