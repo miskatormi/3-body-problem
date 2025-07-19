@@ -1,11 +1,11 @@
-# $n$-Body Problem – A Simple Simulation  
-(Personal weekend project from 2024, README written and project published to GitHub 2025, Updated on 05/2025 for code efficiency and added generalization for $n$-body systems and more general force fields.)
+# $3$-Body Problem – A Simple Simulation  
+(Personal weekend project from 2024, README written and project published to GitHub 2025, Updated on 05/2025 for code efficiency)
 
 During the summer, every normal university student starts to miss their classes (or... maybe not). In my case, I started to miss my mechanics classes and thought to myself:
 
 **"How can I satisfy my need for Mechanics?"**
 
-The answer was obviously to dive into the chaotic beauty of physics with a classic problem — the n-Body Problem — and bring it to life using a bit of Python.
+The answer was obviously to dive into the chaotic beauty of physics with a classic problem — the 3-Body Problem — and bring it to life using a bit of Python.
 
 ## Physical Theories Involved
   
@@ -81,7 +81,7 @@ In this case, the motion seems completely chaotic with no clear pattern. However
     <img width="640" height="480" src="https://github.com/miskatormi/Three-body-problem/blob/main/Figure_1.png">
 </p>  
 
-This shows what happens when the n-body ($n=3$) problem momentarily reduces to the two-body problem: the blue and yellow masses form a close bond and orbit each other. Their combined center of mass then orbits the green mass as if it were just a single object.
+This shows what happens when the 3-body problem momentarily reduces to the two-body problem: the blue and yellow masses form a close bond and orbit each other. Their combined center of mass then orbits the green mass as if it were just a single object.
 
 ### Full Reduction to Two-Body Problem via Symmetry  
 <p align="center">
@@ -92,7 +92,7 @@ This shows what happens when the n-body ($n=3$) problem momentarily reduces to t
     <img width="640" height="480" src="https://github.com/miskatormi/Three-body-problem/blob/main/Figure_6.png">
 </p>
 
-In these last cases, the n-body problem fully reduces to a two-body scenario due to perfect balancing of forces from very specific initial conditions.
+In these last cases, the 3-body problem fully reduces to a two-body scenario due to perfect balancing of forces from very specific initial conditions.
 
 ## Future of This Project?
 
