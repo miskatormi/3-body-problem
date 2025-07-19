@@ -22,7 +22,7 @@ The answer was obviously to dive into the chaotic beauty of physics with a class
   A simple numerical estimate that gets better as $\Delta t$ decreases.
 
 ### A Bit More on What I’m Simulating  
-The $n$-body problem — yes, it really is just that — is all about figuring out how $n$ masses move under each other’s force fields. Why simulate?:
+The $3$-body problem — yes, it really is just that — is all about figuring out how $3$ masses move under each other’s force fields. Why simulate?:
 
 > You can't solve it analytically.  
 > It’s chaotic. It’s sensitive.  
