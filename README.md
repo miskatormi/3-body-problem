@@ -58,7 +58,7 @@ a_{x,n} & a_{y,n} & a_{z,n}\\
 \end{bmatrix}$$
 
 ### The Simulation using ACC-function
-First, we initialize five tensors/arrays: position, velocity, acceleration, time, and mass. Initially, the first four consist of zeros which we update with a for-loop. The mass array consists of the masses of the $n$-bodies. 
+First, we initialize five tensors/arrays: position, velocity, acceleration, time, and mass. Initially, the first four consist of zeros which we update with a for-loop. The mass array consists of the masses of the $3$-bodies. 
 The simulation repeats a simple cycle:
 1. Update elapsed time to the time array. 
 2. Update the acceleration to the acceleration array.
@@ -66,7 +66,7 @@ The simulation repeats a simple cycle:
 
 Finally, we plot all data to visualize the orbits.
 
-## Some Results for three masses 
+## Some Results
 In all the figures, the initial positions are marked with small dots, and the most recent with large ones. Here are some special cases:
 
 ### Total Chaos  
