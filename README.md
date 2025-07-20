@@ -1,11 +1,11 @@
-# $n$-Body Problem – A Simple Simulation  
-(Personal weekend project from 2024, README written and project published to GitHub 2025, Updated on 05/2025 for code efficiency and added generalization for $n$-body systems and more general force fields.)
+# $3$-Body Problem – A Simple Simulation  
+(Personal weekend project from 2024, README written and project published to GitHub 2025, Updated on 05/2025 for code efficiency)
 
 During the summer, every normal university student starts to miss their classes (or... maybe not). In my case, I started to miss my mechanics classes and thought to myself:
 
 **"How can I satisfy my need for Mechanics?"**
 
-The answer was obviously to dive into the chaotic beauty of physics with a classic problem — the n-Body Problem — and bring it to life using a bit of Python.
+The answer was obviously to dive into the chaotic beauty of physics with a classic problem — the 3-Body Problem — and bring it to life using a bit of Python.
 
 ## Physical Theories Involved
   
@@ -22,7 +22,7 @@ The answer was obviously to dive into the chaotic beauty of physics with a class
   A simple numerical estimate that gets better as $\Delta t$ decreases.
 
 ### A Bit More on What I’m Simulating  
-The $n$-body problem — yes, it really is just that — is all about figuring out how $n$ masses move under each other’s force fields. Why simulate?:
+The $3$-body problem — yes, it really is just that — is all about figuring out how $3$ masses move under each other’s force fields. Why simulate?:
 
 > You can't solve it analytically.  
 > It’s chaotic. It’s sensitive.  
@@ -43,22 +43,20 @@ $$
 The ACC-function takes in two arrays or tensors. One made up of the position vectors of the particles as row vectors: $$ \mathcal X = \begin{bmatrix}
 x_1 & y_1 & z_1\\
 x_2 & y_2 & z_2 \\
-\vdots & \vdots & \vdots \\
-x_n & y_n & z_n
+x_3 & y_3 & z_3
 \end{bmatrix} $$
 And one with made up of the masses of the particles
-$$\mathcal M=  \begin{bmatrix} m_1 \\ m_2 \\ \vdots \\ m_n
+$$\mathcal M=  \begin{bmatrix} m_1 \\ m_2 \\ m_3
 \end{bmatrix}$$
 The function then returns the acceleration vectors as row vectors in another array:
 $$ \mathcal A =  \begin{bmatrix}
 a_{x,1} & a_{y,1} & a_{z,1}\\
 a_{x,2} & a_{y,2} & a_{z,2}\\
-\vdots & \vdots & \vdots \\
-a_{x,n} & a_{y,n} & a_{z,n}\\
+a_{x,3} & a_{y,3} & a_{z,3}
 \end{bmatrix}$$
 
 ### The Simulation using ACC-function
-First, we initialize five tensors/arrays: position, velocity, acceleration, time, and mass. Initially, the first four consist of zeros which we update with a for-loop. The mass array consists of the masses of the $n$-bodies. 
+First, we initialize five tensors/arrays: position, velocity, acceleration, time, and mass. Initially, the first four consist of zeros which we update with a for-loop. The mass array consists of the masses of the $3$-bodies. 
 The simulation repeats a simple cycle:
 1. Update elapsed time to the time array. 
 2. Update the acceleration to the acceleration array.
@@ -66,7 +64,7 @@ The simulation repeats a simple cycle:
 
 Finally, we plot all data to visualize the orbits.
 
-## Some Results for three masses 
+## Some Results
 In all the figures, the initial positions are marked with small dots, and the most recent with large ones. Here are some special cases:
 
 ### Total Chaos  
@@ -81,7 +79,7 @@ In this case, the motion seems completely chaotic with no clear pattern. However
     <img width="640" height="480" src="https://github.com/miskatormi/Three-body-problem/blob/main/Figure_1.png">
 </p>  
 
-This shows what happens when the n-body ($n=3$) problem momentarily reduces to the two-body problem: the blue and yellow masses form a close bond and orbit each other. Their combined center of mass then orbits the green mass as if it were just a single object.
+This shows what happens when the 3-body problem momentarily reduces to the two-body problem: the blue and yellow masses form a close bond and orbit each other. Their combined center of mass then orbits the green mass as if it were just a single object.
 
 ### Full Reduction to Two-Body Problem via Symmetry  
 <p align="center">
@@ -92,7 +90,7 @@ This shows what happens when the n-body ($n=3$) problem momentarily reduces to t
     <img width="640" height="480" src="https://github.com/miskatormi/Three-body-problem/blob/main/Figure_6.png">
 </p>
 
-In these last cases, the n-body problem fully reduces to a two-body scenario due to perfect balancing of forces from very specific initial conditions.
+In these last cases, the 3-body problem fully reduces to a two-body scenario due to perfect balancing of forces from very specific initial conditions.
 
 ## Future of This Project?
 
