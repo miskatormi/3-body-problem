@@ -32,9 +32,9 @@ That’s what makes it fascinating. It sits right at the edge of classical mecha
 
 ## Basic Function of the Python Code  
 
-_Changed 05/2025:_ 
+_Changed 07/2025:_ 
 
-The simulation now mostly uses array operations to speed up the simulation:
+The simulation now mostly uses vectorized operations to speed up the simulation:
 
 ### The **ACC-function** and what it does
 $$
